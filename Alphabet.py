@@ -1,7 +1,7 @@
 ch = raw_input()
 if ((ch>='a' and ch<='z')or (ch>='A' and ch<='Z')):
-    print ("alphabet")
+    print ("ch,alphabet")
 else:
-    print (" not alphabet")
+    print ("ch, not alphabet")
    
     
