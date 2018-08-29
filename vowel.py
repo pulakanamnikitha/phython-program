@@ -1,5 +1,5 @@
-ch=input("enter a character")
-if (ch=='A'):
-    print(ch,"is a Vowel")
+ch = raw_input()
+if ch in ('a','e','i','o','u'):
+    print("Vowel")
 else:
-    print(ch,"is a Constant")
+    print("Constant")
