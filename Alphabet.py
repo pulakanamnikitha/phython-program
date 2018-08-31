@@ -1,7 +1,8 @@
-ch = raw_input()
-if ((ch>='a' and ch<='z')or (ch>='A' and ch<='Z')):
-    print ("ch,alphabet")
+x = raw_input("")
+print(x)
+if (x>'a'):
+    print ("alphabet")
 else:
-    print ("ch, not alphabet")
+    print ("not alphabet")
    
     
