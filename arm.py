@@ -8,7 +8,7 @@ for num in range (lower,upper+1):
         sum +=digit**order
         temp//=10
         if num==sum:
-            print(num)
+            print(num),
         
         
         
