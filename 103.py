@@ -1,2 +1,2 @@
-name=raw_input()
-print name.title()
+n=raw_input()
+print n.title()
