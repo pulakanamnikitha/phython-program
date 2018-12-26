@@ -1,4 +1,4 @@
-l=list(raw_input())
-for i in range(0,len(l)-1,2):
-    l[i],l[i+1]=l[i+1],l[i]
-print("".join(str(x) for x in l))
+n=list(raw_input())
+for i in range(0,len(n)-1,2):
+    n[i],n[i+1]=n[i+1],n[i]
+print("".join(str(x) for x in n))
